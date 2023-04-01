@@ -1,0 +1,31 @@
+
+body{
+     display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+div{
+    padding: 10px 15px;
+    color: rgb(98, 130, 225);
+    font-weight: 600;
+    border: 1px solid rgb(197, 190, 190);
+    
+}
+
+div:hover{
+    background-color: rgb(197, 190, 190);
+    cursor: pointer;
+    color: rgb(51, 51, 191);
+}
+
+#cantoDireito{
+    border-radius: 0px 3px 3px 0px;
+}
+
+#cantoEsquerdo{
+    border-radius: 3px 0px 0px 3px;
+}
